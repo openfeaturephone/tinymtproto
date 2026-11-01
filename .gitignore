@@ -1,0 +1,15 @@
+# build output (tests, Makefile, arm_check.py)
+build/
+*.o
+*.a
+*.elf
+*.exe
+*.pdb
+*.bin
+__pycache__/
+*.pyc
+
+# never commit sessions or credentials
+*.session
+state_*.bin
+.env
